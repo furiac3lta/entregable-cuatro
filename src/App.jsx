@@ -32,18 +32,12 @@ function App() {
       <DeleteAlert
         deleteClose={deleteClose}
         setDeleteClose={setDeleteClose}
-        updateInfo={updateInfo}
-        setUpdateInfo={setUpdateInfo}
-        updateUserById={updateUserById}
         deleteUserById={deleteUserById}
       />
       <Alert
         alertClose={alertClose}
         setAlertClose={setAlertClose}
         updateInfo={updateInfo}
-        setUpdateInfo={setUpdateInfo}
-        updateUserById={updateUserById}
-        deleteUserById={deleteUserById}
       />
      
       <FormUser

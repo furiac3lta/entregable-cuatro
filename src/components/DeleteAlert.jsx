@@ -1,6 +1,6 @@
 import './styles/deleteAlert.css'
 
-const DeleteAlert = ({ deleteClose, setDeleteClose, updateInfo, deleteUserById }) => {
+const DeleteAlert = ({ deleteClose, setDeleteClose, deleteUserById }) => {
 
     const handleExit = () => {
         setDeleteClose(true);

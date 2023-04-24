@@ -1,6 +1,6 @@
 import "./styles/alert.css";
 
-const Alert = ({ alertClose, setAlertClose, updateInfo, deleteUserById }) => {
+const Alert = ({ alertClose, setAlertClose, updateInfo }) => {
   console.log(updateInfo);
   const handleExit = () => {
     setAlertClose(true);
